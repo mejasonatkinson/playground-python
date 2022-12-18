@@ -32,3 +32,56 @@ https://github.com/iamshaunjp/python-3-playlist
 atom.io
 
 cmder
+
+
+Python 3 Tutorial for Beginners #2 - Installing Python 3
+
+https://www.youtube.com/watch?v=SbQAAuom-GA&list=PL4cUxeGkcC9idu6GZ8EU_5B6WpKTdYZbK&index=2
+
+ 
+
+(Windows)
+
+ 
+
+python -V
+
+ 
+
+Python.org
+
+Downloads, windows.
+
+Install
+
+Add Python 3.6 to PATH (so you can use it anywhere)
+
+Install Now
+
+ 
+
+python -V
+
+ 
+
+python
+
+ 
+
+will put you in the python shell
+
+ 
+
+>>> 
+
+ 
+
+Ctrl+Z.
+
+Enter.
+
+To exit out of the python shell
+
+ 
+
+python filename.py
