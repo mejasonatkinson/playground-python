@@ -85,3 +85,122 @@ To exit out of the python shell
  
 
 python filename.py
+
+
+
+
+Python 3 Tutorial for Beginners #3 - Numbers
+
+https://www.youtube.com/watch?v=Gqby4v5JOu4&list=PL4cUxeGkcC9idu6GZ8EU_5B6WpKTdYZbK&index=3
+
+ 
+
+python
+
+ 
+
+everything is an object.
+
+Every object has attributes and methods (functions)
+
+ 
+
+Int 1,2,3,4 whole number
+
+Floats 1.2,1.3,1.4 decimal number
+
+ 
+
+type(5)
+
+type(1.23)
+
+ 
+
+5 + 5 = 10
+
+ 
+
+5 - 5 = 0
+
+ 
+
+5 * 5 = 25
+
+ 
+
+5 / 5 = 1.0 (quirk of the programming language)
+
+ 
+
+5 // 5 = 1
+
+ 
+
+5 ** 5 = 3125
+
+ 
+
+10 % 3 = 1
+
+ 
+
+5 + 5 * 3 =  20
+
+ 
+
+BIDMAS
+
+ 
+
+age = 25
+
+age
+
+25
+
+age + 5
+
+30
+
+age
+
+25
+
+age = age + 5
+
+30
+
+age
+
+30
+
+age += 5
+
+35
+
+age
+
+35
+
+ 
+
+-=
+
+/=
+
+ 
+
+wages = 1000
+
+bills = 200
+
+rent = 500
+
+food = 200
+
+savings = wages – bills – rent – food
+
+savings
+
+ 
