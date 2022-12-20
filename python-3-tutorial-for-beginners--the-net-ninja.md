@@ -204,3 +204,72 @@ savings = wages – bills – rent – food
 savings
 
  
+Python 3 Tutorial for Beginners #4 - Strings
+
+https://www.youtube.com/watch?v=---_iWTjtB4&list=PL4cUxeGkcC9idu6GZ8EU_5B6WpKTdYZbK&index=4
+
+ 
+
+ 
+
+“hello”
+
+‘hello’
+
+‘he’s a mad man’ ERROR
+
+“he’s a mad man”
+
+‘he\’s a mad man’
+
+ 
+
+Indexed from 0
+
+ 
+
+greet = ‘hello’
+
+greet
+
+greet[0] = h
+
+greet[-5] = h
+
+greet[0:3] = hel
+
+greet[-1:2] = ‘ ’
+
+greent[2:-1] = ll
+
+ 
+
+greet = greet[-:3]
+
+greet = ‘hello’
+
+str2 = ‘dudes’
+
+greet + str2 = ‘hellodudes’
+
+greet + ‘ ’ + str2 = ‘hello dudes’
+
+greet * 3 = ‘hellohellohello’
+
+ 
+
+greet.upper() = HELLO
+
+greet = greet.upper()
+
+ 
+
+cheeses = “brie, chedder, stilton”
+
+cheeses.split(‘,’)
+
+[‘brie’, ‘chedder’, ‘stilton’]
+
+ 
+
+Len(greet) = 5
