@@ -273,3 +273,62 @@ cheeses.split(‘,’)
  
 
 Len(greet) = 5
+
+
+
+
+Python 3 Tutorial for Beginners #5 - Lists
+
+https://www.youtube.com/watch?v=cl0R4Tbf2v0&list=PL4cUxeGkcC9idu6GZ8EU_5B6WpKTdYZbK&index=5
+
+ 
+
+ 
+
+python
+
+ 
+
+str = “hello there dudes”
+
+str.split(‘ ’)
+
+[‘hello’, ‘there’, ‘dudes’]
+
+fib1 = [1,1,2,3,5,8,13]
+
+fib1[2] = 2
+
+fib1[0:4]
+
+[1,1,2,3]
+
+fib2 = [21,34,55]
+
+fib1+fib2
+
+[1,1,2,3,5,8,13,21,34,55]
+
+Fib1[0] =  9
+
+[9,1,2,3,5,8,13]
+
+Fib = fib1+fib2
+
+Fib.append(89)
+
+Fib.pop()
+
+Fib.remove(89)
+
+del(fib[10])
+
+nums = [[1,23,4],[3,4,5,6],[7,8,90,45]]
+
+nums[1][1]
+
+4
+
+ 
+
+ 
