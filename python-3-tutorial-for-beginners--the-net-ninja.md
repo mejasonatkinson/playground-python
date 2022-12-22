@@ -332,3 +332,63 @@ nums[1][1]
  
 
  
+Python 3 Tutorial for Beginners #6 - Standard Input
+
+https://www.youtube.com/watch?v=CEO614YbQCY&list=PL4cUxeGkcC9idu6GZ8EU_5B6WpKTdYZbK&index=6
+
+ 
+
+create python files.
+
+ 
+
+Atom (Text Editor)
+
+Area_calc.py
+
+ 
+
+# comments
+
+ 
+
+name = Input(‘Tell me you name, punk: ’)
+
+print(‘hello ’ + name)
+
+age = input(‘…and your age: ’)
+
+print(name, ‘you are’, age)
+
+ 
+
+ 
+
+# Calc the area of a circle
+
+ 
+
+radius = input(‘Enter the radius of your circle (m): ’)
+
+area = 3.142 * int(radius)**2
+
+print(‘The area of your circle is:’, area)
+
+ 
+
+ERROR because radius by input is String.
+
+ 
+
+314.2
+
+ 
+
+Command Line
+
+Move to directory
+
+ 
+
+Python area_calc.py
+
