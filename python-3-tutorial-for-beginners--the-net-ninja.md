@@ -392,3 +392,46 @@ Move to directory
 
 Python area_calc.py
 
+
+
+Python 3 Tutorial for Beginners #7 - String Formatting
+
+https://www.youtube.com/watch?v=yVGSeRcQfyI&list=PL4cUxeGkcC9idu6GZ8EU_5B6WpKTdYZbK&index=7
+
+ 
+
+ 
+
+Atom (Text Editor)
+
+string_fortmat.py
+
+ 
+
+num1 = 3.1425467389
+
+num2 = 10.2903948
+
+ 
+
+# print(‘num 1 is’, num1, ‘and num 2 is’, num2)
+
+Print(‘num 1 is {0:.3f} and num 2 is {1:.3f}’.fortmat(num1, num2))
+
+ 
+
+# f-string
+
+ 
+
+Print(f‘num 1 is {num1} and num 2 is {num2}’)
+
+ 
+
+Command Line
+
+ 
+
+Python string_format.py
+
+ 
