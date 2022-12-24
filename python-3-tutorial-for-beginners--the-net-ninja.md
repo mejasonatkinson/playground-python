@@ -435,3 +435,93 @@ Command Line
 Python string_format.py
 
  
+
+ 
+
+Python 3 Tutorial for Beginners #8 - If Statements
+
+https://www.youtube.com/watch?v=t3c41sKJS20&list=PL4cUxeGkcC9idu6GZ8EU_5B6WpKTdYZbK&index=8
+
+ 
+
+ 
+
+ 
+
+Atom (Text Editor)
+
+If_elif.py
+
+ 
+
+age = int(input(‘Enter your age: ’))
+
+ 
+
+if age < 10:
+
+            # code block, MUST be indented
+
+            Print(‘you are young, strange one’)
+
+ 
+
+elif age < 40:
+
+            print(‘the fire in you is strong, strange one’)
+
+ 
+
+else:
+
+            print(‘you are wise beyond doubt, strange one’)
+
+ 
+
+meaty = input(‘Do you eat meet? (y/n): ’)
+
+ 
+
+if meaty == ‘y’:
+
+            print(‘here is the meaty menu…’)
+
+else:
+
+            print(‘here is the veggie menu…’)
+
+ 
+
+ 
+
+# OPERATORS
+
+ 
+
+# >, <, ==, !=, =>, =<
+
+ 
+
+Command Line
+
+Python if elif.py
+
+ 
+
+9
+
+You are young, strange one
+
+10
+
+…
+
+the fire in you is strong, strange one
+
+45
+
+you are wise beyond doubt, strange one’
+
+6
+
+You are young, strange one
