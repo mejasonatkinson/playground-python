@@ -525,3 +525,107 @@ you are wise beyond doubt, strange one’
 6
 
 You are young, strange one
+
+
+
+Python 3 Tutorial for Beginners #9 - For Loops
+
+https://www.youtube.com/watch?v=ENMCxQ9kNS4&list=PL4cUxeGkcC9idu6GZ8EU_5B6WpKTdYZbK&index=9
+
+ 
+
+Atom (Text Editor)
+
+loops.py
+
+ 
+
+ninjas = [‘ryu’, ‘crystal’, ‘yoshi’, ‘ken’]
+
+ 
+
+for ninja in ninjas:
+
+            print(ninja)
+
+ 
+
+for ninja in ninjas[1:3]:
+
+            print(ninja)
+
+ 
+
+for ninja in ninjas:
+
+            if ninja == ‘yoshi’:
+
+                        print(f‘{ninja} – black belt’)
+
+            else:
+
+                        print(ninja);
+
+ 
+
+for ninja in ninjas:
+
+            if ninja == ‘yoshi’:
+
+                        print(f‘{ninja} – black belt’)
+
+                        break
+
+            else:
+
+                        print(ninja);
+
+ 
+
+ 
+
+Command Line
+
+Python loops.py
+
+ 
+
+ 
+
+ryu
+
+crystal
+
+yoshi
+
+ken
+
+ 
+
+crystal
+
+yoshi
+
+ 
+
+ 
+
+ryu
+
+crystal
+
+yoshi – black belt
+
+ken
+
+ 
+
+ 
+
+ryu
+
+crystal
+
+yoshi – black belt
+
+ 
