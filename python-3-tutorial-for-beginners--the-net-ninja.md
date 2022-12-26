@@ -629,3 +629,70 @@ crystal
 yoshi – black belt
 
  
+Python 3 Tutorial for Beginners #10 - While Loops
+
+https://www.youtube.com/watch?v=7p-BJ92aZp0&list=PL4cUxeGkcC9idu6GZ8EU_5B6WpKTdYZbK&index=10
+
+ 
+
+Atom (Text Editor)
+
+loops.py
+
+ 
+
+age = 25
+
+num = 0
+
+ 
+
+while num < age:
+
+            print(num)
+
+num += 1
+
+ 
+
+while num < age:
+
+            if num == 0:
+
+num += 1
+
+                        continue
+
+            if num % 2 == 0:
+
+                        print(num)
+
+if num > 10:
+
+            break
+
+num += 1
+
+ 
+
+Command Line
+
+Python loops.py
+
+ 
+
+0 to 24
+
+ 
+
+2
+
+4
+
+6
+
+8
+
+10
+
+ 
