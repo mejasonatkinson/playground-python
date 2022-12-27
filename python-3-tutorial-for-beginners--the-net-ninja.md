@@ -696,3 +696,124 @@ Python loops.py
 10
 
  
+Python 3 Tutorial for Beginners #11 - Ranges
+
+https://www.youtube.com/watch?v=GhrChSfaiu0&list=PL4cUxeGkcC9idu6GZ8EU_5B6WpKTdYZbK&index=11
+
+ 
+
+ 
+
+Atom (Text Editor)
+
+ranges.py
+
+ 
+
+ 
+
+for n in range(5):
+
+            print(n)
+
+ 
+
+for n in range(3,10):
+
+            print(n)
+
+ 
+
+for n in range(0,20,4):
+
+            print(n)
+
+ 
+
+burgers = [‘beef’, ‘chicken’, ‘veg’, ‘supreme’, ‘double’]
+
+ 
+
+for n in range(len(burgers)):
+
+print(n, burgers[n])
+
+ 
+
+for n in range(len(burgers) - 1, -1, -1)
+
+print(n, burgers[n])
+
+ 
+
+ 
+
+Command Line
+
+Python ranges.py
+
+ 
+
+0
+
+1
+
+2
+
+3
+
+4
+
+ 
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+ 
+
+0
+
+4
+
+8
+
+12
+
+16
+
+ 
+
+0 Beef
+
+1 Chicken
+
+2 Veg
+
+3 Supreme
+
+4 Double
+
+ 
+
+4 Double
+
+3 Supreme
+
+2 Veg
+
+1 Chicken
+
+0 Beef
+
+ 
