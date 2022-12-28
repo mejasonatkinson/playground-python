@@ -817,3 +817,243 @@ Python ranges.py
 0 Beef
 
  
+
+Python 3 Tutorial for Beginners #12 - Functions
+
+https://www.youtube.com/watch?v=l0E1tK-O8ew&list=PL4cUxeGkcC9idu6GZ8EU_5B6WpKTdYZbK&index=12
+
+ 
+
+def = define
+
+ 
+
+Atom (Text Editor)
+
+functions.py
+
+ 
+
+ 
+
+def greet():
+
+            print(‘hello world’)
+
+ 
+
+greet()
+
+ 
+
+def greet(name, time):
+
+            print(f‘Good {time} {name}, hope you are well’)
+
+ 
+
+greet(‘shaun’, ‘morning’)
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+def greet(name, time):
+
+            print(f‘Good {time} {name}, hope you are well’)
+
+ 
+
+ 
+
+name = input(‘enter your name: ’)
+
+time = input(‘enter the time of day: ’)
+
+ 
+
+greet(name, time)
+
+ 
+
+ 
+
+def greet(name = ‘ryu’, time = ‘morning’):
+
+            print(f‘Good {time} {name}, hope you are well’)
+
+ 
+
+ 
+
+name = input(‘enter your name: ’)
+
+time = input(‘enter the time of day: ’)
+
+ 
+
+greet(name, time)
+
+ 
+
+def area (radius):
+
+            print(3.142 * radius * radius)
+
+ 
+
+area(5)
+
+ 
+
+ 
+
+def area (radius):
+
+            print(3.142 * radius * radius)
+
+ 
+
+radius = int(input(‘enter a radius: ’))
+
+ 
+
+area(radius)
+
+ 
+
+ 
+
+def area (radius):
+
+            print(3.142 * radius * radius)
+
+ 
+
+def vol(area, length):
+
+            print(area * length)
+
+ 
+
+radius = int(input(‘enter a radius: ’))
+
+length = int(input(‘enter a length: ’))
+
+ 
+
+area_calc = area(radius)
+
+ 
+
+vol(area_calc, length)
+
+ 
+
+OR
+
+ 
+
+vol(area(radius), length)
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Command Line
+
+Python functions.py
+
+ 
+
+ 
+
+hello world
+
+ 
+
+good morning shaun, hope you are well
+
+ 
+
+= shaun
+
+= morning
+
+good morning shaun, hope you are well
+
+ 
+
+=
+
+=
+
+ERROR
+
+ 
+
+=
+
+=
+
+Googin morning ryu, hope you are well
+
+ 
+
+78.55
+
+ 
+
+=5
+
+78.55
+
+ 
+
+=7
+
+=8
+
+1231.664
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
