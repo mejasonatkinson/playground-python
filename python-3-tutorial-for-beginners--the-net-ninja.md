@@ -1038,6 +1038,132 @@ Googin morning ryu, hope you are well
 
  
 
+Python 3 Tutorial for Beginners #13 - Variable Scope
+
+https://www.youtube.com/watch?v=wueXfiVkw1I&list=PL4cUxeGkcC9idu6GZ8EU_5B6WpKTdYZbK&index=13
+
+ 
+
+ 
+
+ 
+
+ 
+
+Atom (Text Editor)
+
+functions.py
+
+ 
+
+my_name = ‘ryu’ // global scope
+
+ 
+
+def print_name():
+
+            print (my_name)
+
+ 
+
+print_name()
+
+print (my_name)
+
+ 
+
+ 
+
+ 
+
+def print_name():
+
+my_name = ‘ryu’ // local scope
+
+            print (my_name)
+
+ 
+
+print_name()
+
+print (my_name) // ERROR
+
+ 
+
+ 
+
+my_name = ‘ryu’ // global scope
+
+ 
+
+def print_name():
+
+            my_name = ‘yoshi’ // local scope
+
+            print (my_name)
+
+ 
+
+print_name()
+
+print (my_name)
+
+ 
+
+ 
+
+my_name = ‘ryu’ // global scope
+
+ 
+
+def print_name():
+
+global my_name // change to global scope
+
+            my_name = ‘yoshi’ // global scope
+
+            print (my_name)
+
+ 
+
+print_name()
+
+print (my_name)
+
+ 
+
+ 
+
+ 
+
+ 
+
+Command Line
+
+Python scope.py
+
+ 
+
+Ryu
+
+ 
+
+ERROR
+
+ 
+
+Yoshi
+
+Ryu
+
+ 
+
+Yoshi
+
+Yoshi
+
+ 
+
  
 
  
