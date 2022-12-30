@@ -1163,6 +1163,120 @@ Yoshi
 Yoshi
 
  
+ 
+Python 3 Tutorial for Beginners #14 - Dictionaries
+
+https://www.youtube.com/watch?v=q8H5R6eP3zQ&list=PL4cUxeGkcC9idu6GZ8EU_5B6WpKTdYZbK&index=14
+
+ 
+
+python
+
+ninja_belts = {“crystal”: “red”, “ryu”: “black”}
+
+ninja_belts[“crystal”]
+
+red
+
+ninja_belts[“ryu”]
+
+black
+
+‘yoshi’ in ninja_belts
+
+False
+
+‘ryu’ in ninja_belts
+
+True
+
+Ninja_belts.keys()
+
+Dict_keys([‘crystal’, ‘ryu’])
+
+List(ninja_belts.keys())
+
+[‘crystal’, ‘ryu’]
+
+Ninja_belts.values()
+
+Dict_values([‘red’, black‘])
+
+List(Ninja_belts.values())
+
+[‘red’, black‘]
+
+Vals = List(Ninja_belts.values())
+
+Vals.count(‘black’)
+
+1
+
+Ninja_belts[‘yoshi’] = ‘red’
+
+Ninja_belts
+
+{“crystal”: “red”, “ryu”: “black” “yoshi”: “red”}
+
+Person = dict(name=”shaun”, age=27, height=”6ft”)
+
+Person
+
+{‘name’:’shaun’,  ’age’:27,  ’height’:’6ft’}
+
+ 
+
+ 
+
+ 
+
+Atom (Text Editor)
+
+dictionaries.py
+
+ 
+
+def ninja_intro(dictionary)
+
+            for key, val in dictionary.items():
+
+                        print(f’Iam {key} and I am a {val} belt’)
+
+ 
+
+ninja_belts = {}
+
+ 
+
+while True:
+
+            ninja_name = input(‘enter a ninja name: ’)
+
+ninja_belt = input(‘enter a belt colour: ’)
+
+ninja_belts[ninja_name] = ninja_belt
+
+ 
+
+            another = input(‘add another? (y/n)’)
+
+            if another == ‘y’:
+
+                        continue
+
+            else:
+
+                        break
+
+                       
+
+ninja_intro(ninja_belts)
+
+ 
+
+Command Line
+
+Python dictionaries.py
 
  
 
