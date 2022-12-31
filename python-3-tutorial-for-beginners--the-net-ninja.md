@@ -1282,6 +1282,83 @@ Python dictionaries.py
 
  
 
+Python 3 Tutorial for Beginners #15 - Sorting & Sets
+
+https://www.youtube.com/watch?v=UirJNoJ9KT8&list=PL4cUxeGkcC9idu6GZ8EU_5B6WpKTdYZbK&index=15
+
+ 
+
+nums = [1,4,2,7,3,8,3,4,8,1]
+
+sorted(nums)
+
+[1,1,2,3,3,4,4,7,8,8]
+
+Names = [‘shaun’, ‘ryu’, ‘abe’, ‘Apple’, ‘Brian’, ‘shaun’]
+
+Sorted(names)
+
+[‘Apple’, ‘Brian’, ‘abe’, ‘ryu’, ‘shaun’, ‘shaun’]
+
+ 
+
+Capital Letters come first…
+
+ 
+
+Set(nums)
+
+{1, 2, 3, 4, 7, 8}
+
+ 
+
+Sets do not preserve order.
+
+ 
+
+Set(nums)
+
+{‘ryu’, ‘Apple’, ‘abe’, ‘brian’, ‘shaun’}
+
+ 
+
+Ninjas = {‘ryu’: ‘black’, ‘yoshi’: ‘red’, ‘crystal’: ‘black’}
+
+Ninjas.values()
+
+Dict_values([‘black’, ‘red’, ‘black’])
+
+Set(ninjas_values())
+
+{‘red’, ‘black’}
+
+ 
+
+Atom:
+
+.py
+
+ 
+
+Def belt_count(dictionary):
+
+Belts = list(dictionary.values())
+
+For belt in set(belts):
+
+                Num = belts.count(belt)
+
+                Print(f’There are {num} {belt} belts’)
+
+ 
+
+Belt_count(ninja_belts)
+
+ 
+
+ 
+
+Command Line:
  
 
  
