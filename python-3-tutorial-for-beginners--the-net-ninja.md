@@ -1366,6 +1366,95 @@ Command Line:
  
 
  
+Python 3 Tutorial for Beginners #16 - Classes
+
+https://www.youtube.com/watch?v=H--VDcDSHdg&list=PL4cUxeGkcC9idu6GZ8EU_5B6WpKTdYZbK&index=16
+
+ 
+
+LOST…
+
+ 
+
+name = ‘shaun’
+
+age = 20
+
+nums = [1,2,3,4]
+
+type(name)
+
+<class ‘str’>
+
+ 
+
+name.upper()
+
+ 
+
+class is a blueprint for how a object behaves
+
+ 
+
+ 
+
+ 
+
+ 
+
+Atom
+
+Classes.py
+
+ 
+
+Class Planet:
+
+ 
+
+                Def __init__(self): # Properities
+
+                                Self.name = ‘Hoth’
+
+Self.radius = 200000
+
+                                Self.gravity = 5.5
+
+                                Self.system = ‘Hoth System’
+
+ 
+
+                Def orbit(self): # Method
+
+                                Return f’{self.name is orbiting in the {self.system}}’
+
+ 
+
+ 
+
+Hoth = Planet()
+
+ 
+
+Print(f’Name is: {host.name}’)
+
+Print(f’Radius is: {host.radius}’)
+
+Print(f’Gravity is: {host.gravity}’)
+
+Print(hoth.orbit())
+
+ 
+
+ 
+
+Command Line
+
+ 
+
+Python classes.py
+
+ 
 
  
 
