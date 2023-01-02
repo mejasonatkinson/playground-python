@@ -1457,6 +1457,88 @@ Python classes.py
  
 
  
+Python 3 Tutorial for Beginners #17 - The init function
+
+https://www.youtube.com/watch?v=TO1K8_BVCT4&list=PL4cUxeGkcC9idu6GZ8EU_5B6WpKTdYZbK&index=17
+
+ 
+
+Atom
+
+Classes.py
+
+ 
+
+Class Planet:
+
+ 
+
+                Def __init__(self, name, radius, gravity, system):
+
+                                Self.name = name
+
+Self.radius = radius
+
+                                Self.gravity = gravity
+
+                                Self.system = system
+
+ 
+
+                Def orbit(self): # Method
+
+                                Return f’{self.name is orbiting in the {self.system}}’
+
+ 
+
+ 
+
+Hoth = Planet(‘Hoth’, 2000000, 5.5, ‘Hoth System’)
+
+Naboo = Planet(‘Naboo’, 300000, 8, ‘Naboo System’)
+
+ 
+
+Print(f’Name is: {hoth.name}’)
+
+Print(f’Radius is: {hoth.radius}’)
+
+Print(f’Gravity is: {hoth.gravity}’)
+
+Print(hoth.orbit())
+
+ 
+
+Print(f’Name is: {naboo.name}’)
+
+Print(f’Radius is: {naboo.radius}’)
+
+Print(f’Gravity is: {naboo.gravity}’)
+
+Print(hoth.orbit())
+
+ 
+
+Command Line
+
+ 
+
+Python classes.py
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
 
  
 
