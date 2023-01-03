@@ -1528,6 +1528,65 @@ Python classes.py
  
 
  
+Python 3 Tutorial for Beginners #18 - Methods & Attributes
+
+https://www.youtube.com/watch?v=LwFnF9XoEfM&list=PL4cUxeGkcC9idu6GZ8EU_5B6WpKTdYZbK&index=18
+
+ 
+
+instance attributes
+
+Instance methods
+
+ 
+
+Unique to the instance.
+
+ 
+
+Class Planet:
+
+ 
+
+                Shape = ‘round’ # class level attributes are the same for all instances
+
+ 
+
+@classmethod # decorator
+
+Def commons(cls):
+
+                Return f’All planets are {cls.shape} because of gravity’
+
+ 
+
+@staticmethod # decorator
+
+Def spin(speed = ‘2000 miles per hour’):
+
+                Return f’The planet spins and spins at {speed}’
+
+               
+
+ 
+
+Planet.shape = round
+
+Naboo.shape = round
+
+ 
+
+Planet.commons() = Al planets are round because of gravity
+
+Naboo.commons() = Al planets are round because of gravity
+
+ 
+
+Planet.spin(‘a very high speed’) = The planet spins and spins at a very high speed
+
+naboo.spin(‘a very high speed’) = The planet spins and spins at a very high speed
+
+ 
 
  
 
