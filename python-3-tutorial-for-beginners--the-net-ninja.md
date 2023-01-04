@@ -1589,6 +1589,67 @@ naboo.spin(‘a very high speed’) = The planet spins and spins at a very high 
  
 
  
+Python 3 Tutorial for Beginners #19 - Modules & Packages
+
+https://www.youtube.com/watch?v=f26nAmfJggw&list=PL4cUxeGkcC9idu6GZ8EU_5B6WpKTdYZbK&index=19
+
+ 
+
+Import Modules,
+
+ 
+
+Import Packages; a collection of Modules
+
+ 
+
+From (file_name) import (function)
+
+ 
+
+From classes import Planet
+
+ 
+
+Atom
+
+ 
+
+New folder
+
+ 
+
+Space/
+
+ 
+
+Space/__init__.py
+
+ 
+
+To tell that this is a module
+
+ 
+
+Space/planet.py
+
+Space/calc.py
+
+ 
+
+Classes.py
+
+ 
+
+From (package).(file_name) import (function), (function)
+
+ 
+
+From space.planet import Planet
+
+From space.calc import planet_mass, planet_vol
+
+ 
 
  
 
