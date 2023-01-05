@@ -1657,6 +1657,113 @@ From space.calc import planet_mass, planet_vol
 
  
 
+Python 3 Tutorial for Beginners #20 - Bar Tab Calculator
+
+https://www.youtube.com/watch?v=h4NetyxAhv4&list=PL4cUxeGkcC9idu6GZ8EU_5B6WpKTdYZbK&index=20
+
+ 
+
+Atom
+
+ 
+
+Project/bar_tab.py
+
+ 
+
+Class Tab:
+
+               
+
+                Menu = {
+
+                ‘wine’: 5,
+
+                ‘Beer’: 3,
+
+                ‘soft_drink’: 2,
+
+                ‘chicken’: 10,
+
+                ‘beef’: 15,
+
+                ‘Veggie’: 12,
+
+                ‘desert’: 6
+
+}
+
+Def __init__(self):
+
+                Self.total = 0
+
+                Self.items = []
+
+Def add(self, item):
+
+                Self.items.apend(item)
+
+Self.total += self.menu[item]
+
+                Def print_bill(self, tax, service):
+
+                                Tax = (tax/100) * self.total
+
+                                Service = (service/100) * self.total
+
+                                Total = self.total + tax + service
+
+ 
+
+                                For item in self.items:
+
+                                                Print(f’{item:20} £{self.menu[item]}’)
+
+                               
+
+                                Print(f’{“Total”:20} £{total:2f}’)
+
+ 
+
+:20 formats, makes it 20 characters long.
+
+ 
+
+Command Line
+
+ 
+
+Python
+
+From bar_tab import Tab
+
+ 
+
+Table1 = Tab()
+
+ 
+
+Table1.add(‘soft_drink’)
+
+Table1.add(‘chicken’)
+
+Table1.add(‘desert’)
+
+ 
+
+Table1.print_bill(10, 10)
+
+ 
+
+=
+
+soft_drink £2
+
+chicken £10
+
+desert £6
+
+Total £21.60
  
 
 
