@@ -1768,6 +1768,77 @@ Total £21.60
 
 
  
+Python 3 Tutorial for Beginners #21 - List Comprehensions
+
+https://www.youtube.com/watch?v=7G0jqG_kiig&list=PL4cUxeGkcC9idu6GZ8EU_5B6WpKTdYZbK&index=21
+
+ 
+
+prizes = [5, 10, 50, 100, 1000]
+
+ 
+
+dbl_prizes = []
+
+ 
+
+for prize in prizes:
+
+dbl_prizes.append(prize*2)
+
+print(dbl_prizes)
+
+[10, 20, 100, 200, 2000]
+
+ 
+
+ 
+
+# comprehension method
+
+ 
+
+dbl_prizes = [prize*2 for prize in prizes]
+
+print(dbl_prizes)
+
+[10, 20, 100, 200, 2000]
+
+ 
+
+# squaring numbers
+
+Nums = [1,2,3,4,5,6,7,8,9,§0]
+
+ 
+
+Squared_even_nums = []
+
+For num in nums:
+
+                If (num ** 2) % 2 == 0:
+
+                                Squared_even_nums.append(num ** 2)
+
+Print(Squared_even_nums)
+
+[4,16,36,64,100]
+
+ 
+
+# comprehension method
+
+Squared_even_nums = [ num ** 2 for num in mums if (num ** 2) % 2 == 0 ]
+
+ 
+
+Print(Squared_even_nums)
+
+[4,16,36,64,100]
+
+ 
+
+2 ways of doing the same thing…
 
  
 
