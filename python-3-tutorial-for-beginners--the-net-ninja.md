@@ -1841,5 +1841,53 @@ Print(Squared_even_nums)
 2 ways of doing the same thing…
 
  
+Python 3 Tutorial for Beginners #22 - Maps
 
+https://www.youtube.com/watch?v=3Da00hgQ834&list=PL4cUxeGkcC9idu6GZ8EU_5B6WpKTdYZbK&index=23
+
+ 
+
+from random import shuffle
+
+ 
+
+def jumble(word):
+
+                anagram = list(word)
+
+                shuffle(anagram)
+
+return ‘’.join(anagram)
+
+ 
+
+ 
+
+words = [‘beetroot’, ‘carrots’, ‘potatoes’]
+
+anagrams = []
+
+ 
+
+for word in words:
+
+                anagrams.append(jumble(word))
+
+print(anagrams)
+
+ 
+
+# map(function, data)
+
+ 
+
+Print(list(Map(jumble, words)))
+
+ 
+
+# comprehension method
+
+ 
+
+Print( [ jumble(word) for word in words ] )
  
