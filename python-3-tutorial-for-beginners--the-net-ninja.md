@@ -1891,3 +1891,45 @@ Print(list(Map(jumble, words)))
 
 Print( [ jumble(word) for word in words ] )
  
+
+Python 3 Tutorial for Beginners #23 - Filters
+
+https://www.youtube.com/watch?v=jPoY--eTG5A&list=PL4cUxeGkcC9idu6GZ8EU_5B6WpKTdYZbK&index=24
+
+ 
+
+grades = [‘A’, ‘B’, ‘F’, ‘C’, ‘F’, ‘A’]
+
+ 
+
+def remove_fails(grade):
+
+                return grade != ‘F’
+
+ 
+
+# filter(testing_function, grades)
+
+ 
+
+print(List(filter(remove_fails, grades)))
+
+ 
+
+filtered_grades = []
+
+for grade in grades:
+
+                if grade != ‘F’:
+
+                                filtered_grades.apend(grade)
+
+print(filtered_grades)
+
+ 
+
+# comprehension method
+
+ 
+
+Print([grade for grade in grades if grade != ‘F’])
