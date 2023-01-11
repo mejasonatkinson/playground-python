@@ -1933,3 +1933,34 @@ print(filtered_grades)
  
 
 Print([grade for grade in grades if grade != ‘F’])
+
+
+
+
+Python 3 Tutorial for Beginners #24 - Lambdas
+
+https://www.youtube.com/watch?v=3waZGETmzjY&list=PL4cUxeGkcC9idu6GZ8EU_5B6WpKTdYZbK&index=24
+
+ 
+
+anonymous functions
+
+ 
+
+nums = [1,2,3,4,5,6]
+
+ 
+
+def square(n):
+
+                return n * n
+
+ 
+
+print(list(map(square, nums)))
+
+ 
+
+print(list(map(lambda n: n * n, nums)))
+
+
