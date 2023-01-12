@@ -1964,3 +1964,56 @@ print(list(map(square, nums)))
 print(list(map(lambda n: n * n, nums)))
 
 
+Python 3 Tutorial for Beginners #25 - Decorators
+
+https://www.youtube.com/watch?v=mmiIjmo-GwQ&list=PL4cUxeGkcC9idu6GZ8EU_5B6WpKTdYZbK&index=25
+
+ 
+
+LOST
+
+ 
+
+@classmethod
+
+@staticmethod
+
+ 
+
+Used a lot in Django.
+
+Extends the function BUT doesn’t modify the function
+
+ 
+
+ 
+
+Def cough_dec(func):
+
+                Def func_wrapper():
+
+                                # code before function
+
+Print(‘*cough*’)
+
+                                Func()
+
+                                # code after function
+
+Print(‘*cough*’)
+
+                Return func_wrapper
+
+ 
+
+ 
+
+@cough_dec
+
+De question():
+
+                Print(‘can you give me a discount on that?’)
+
+ 
+
+Question()
