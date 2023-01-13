@@ -2017,3 +2017,73 @@ De question():
  
 
 Question()
+
+
+
+Python 3 Tutorial for Beginners #26 - Reading Files
+
+https://www.youtube.com/watch?v=EPHK0X3yxLs&list=PL4cUxeGkcC9idu6GZ8EU_5B6WpKTdYZbK&index=26
+
+ 
+
+ 
+
+files/ipsum.txt
+
+files/dna.txt
+
+ 
+
+ 
+
+read.py
+
+ 
+
+ipsum_file = open(‘files/ipsum.txt’)
+
+ 
+
+for line in ipsum_file:
+
+                print(line.rstrip())
+
+ 
+
+ipsum_file.seek(0)
+
+ 
+
+lines = ipsum_file.readlines()
+
+print(lines)
+
+ 
+
+ipsum_file.seek(50)
+
+file_text = ipsum_file.read(100)
+
+print(file_text)
+
+ 
+
+ipsum_file.close()
+
+ 
+
+ 
+
+def sequence_filter(line):
+
+                return ‘>’ not in line
+
+ 
+
+with open(‘files/dna.txt’) as dna_file:
+
+                lines = dna.readlines()
+
+                print(list(filter(sequence_filter, lines)))
+
+
