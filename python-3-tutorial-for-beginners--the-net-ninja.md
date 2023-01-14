@@ -2114,3 +2114,62 @@ with open(‘files/dna.txt’) as dna_file:
                 print(list(filter(sequence_filter, lines)))
 
 
+# [Python 3 Tutorial for Beginners #27 - Writing Files](https://www.youtube.com/watch?v=cVUhE0-NUzs&list=PL4cUxeGkcC9idu6GZ8EU_5B6WpKTdYZbK&index=27)
+
+ 
+
+write.txt
+
+ 
+
+write.py
+
+ 
+
+with open(‘files/write.txt’, ‘w’) as write_file:
+
+                write_file.write(‘Hey there ninjas’)
+
+                write_file.write(‘/nHey there ninjas’)
+
+ 
+
+with open(‘files/write.txt’, ‘w’) as write_file:
+
+write_file.write(‘/nHey there ninjas’)
+
+ 
+
+overwrites the file.
+
+ 
+
+with open(‘files/write.txt’, ‘a’) as write_file:
+
+write_file.write(‘/nHey there ninjas’)
+
+ 
+
+amends
+
+ 
+
+quotes = [
+
+‘\nQuote 1’,
+
+‘\nQuote 2’,
+
+‘\nQuote 3’,
+
+]
+
+ 
+
+With open(‘files/write.txt’, ‘a’) as write_file:
+
+                Write_file.writelines(quotes)
+
+ 
+
+python write.py
