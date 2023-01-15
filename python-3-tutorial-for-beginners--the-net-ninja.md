@@ -2173,3 +2173,52 @@ With open(‘files/write.txt’, ‘a’) as write_file:
  
 
 python write.py
+
+
+[Python 3 Tutorial for Beginners #28 - Themed Lorem Ipsum Generator](https://www.youtube.com/watch?v=iLS4Hk-kJXE&list=PL4cUxeGkcC9idu6GZ8EU_5B6WpKTdYZbK&index=29)
+
+ 
+
+projects/ipsum.txt
+
+projects/ipsum.py
+
+ 
+
+from random import randint
+
+ 
+
+ninja_words = [ ‘Dojo’, ‘Kenshi’]
+
+ 
+
+def ninjarize(word):
+
+                random_pos = randint(0, len(ninja_words) - 1)
+
+                return f’{word} {ninja_words[random_pos]}’
+
+ 
+
+paragraphs = int(input(‘how many paragraphs of ninja ipsum: ’))
+
+ 
+
+with open(ipsum.txt) as ipsum_original:
+
+                items = ipsum_original.read().split()
+
+ 
+
+                for n in range(paragraphs):
+
+                                ninja_text = list( map(ninjarize, items))
+
+                                with open(‘ninja_ipsum.txt’, ‘a’) as ipsum_ninja:
+
+                                                ipsum_ninja.write(‘ ’.join(ninja_text) + ‘\n\n’)
+
+ 
+
+python ipsum_gen.py    
