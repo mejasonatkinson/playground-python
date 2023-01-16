@@ -2222,3 +2222,34 @@ with open(ipsum.txt) as ipsum_original:
  
 
 python ipsum_gen.py    
+
+
+
+# [Python 3 Tutorial for Beginners #29 - Downloading Images](https://www.youtube.com/watch?v=2Rf01wfbQLk&list=PL4cUxeGkcC9idu6GZ8EU_5B6WpKTdYZbK&index=29)
+
+ 
+
+python networking?
+
+ 
+
+Import urllib.request
+
+ 
+
+Def dl_img(url, file_path, file_name):
+
+                Full_path = file_path + file_name + ‘.jpg’
+
+                Urllib.request.urlretrieve(url, full_path)
+
+ 
+
+url = input(‘Enter img URL to download: ’)
+
+file_name = input(‘Enter file name to save as: ’)
+
+ 
+
+del_img(url, ‘images/’, )
+
