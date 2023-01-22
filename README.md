@@ -11,3 +11,4 @@ A place to learn more about python, and try things.
 ## Resources
 
 - [ ] [Python 3 Tutorial for Beginners; The Net Ninja](https://www.youtube.com/playlist?list=PL4cUxeGkcC9idu6GZ8EU_5B6WpKTdYZbK)
+- [ ] [Python Tutorial; w3schools](https://www.w3schools.com/python/)
