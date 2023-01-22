@@ -12,3 +12,5 @@ A place to learn more about python, and try things.
 
 - [ ] [Python 3 Tutorial for Beginners; The Net Ninja](https://www.youtube.com/playlist?list=PL4cUxeGkcC9idu6GZ8EU_5B6WpKTdYZbK)
 - [ ] [Python Tutorial; w3schools](https://www.w3schools.com/python/)
+- [ ] Fireship https://www.youtube.com/watch?v=x7X9w_GIm1s
+- [ ] Fireship https://www.youtube.com/watch?v=bJUl3OAIT0k
